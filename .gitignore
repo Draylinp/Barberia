@@ -1,0 +1,30 @@
+# Dependencias y caché
+/vendor/
+*.log
+
+# Archivos de entorno (no subir credenciales reales)
+# config/database.php  ← se sube con credenciales por defecto de XAMPP
+
+# Uploads de imágenes (excluir binarios pesados)
+/assets/img/galeria/*.jpg
+/assets/img/galeria/*.jpeg
+/assets/img/galeria/*.png
+/assets/img/galeria/*.webp
+/assets/img/*.jpg
+/assets/img/*.jpeg
+/assets/img/*.png
+!/assets/img/.gitkeep
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PHP
+*.cache
