@@ -4,6 +4,7 @@
  * Barbería Premium — includes/header_barbero.php
  */
 require_once __DIR__ . '/functions.php';
+iniciarSesion();
 requireRol('barbero', 'admin');
 $config  = getConfig();
 $usuario = usuarioActual();
